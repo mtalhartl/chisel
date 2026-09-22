@@ -82,7 +82,7 @@ endmodule
 
 ### External Modules with Verilog in a Resource File
 
-In order to deliver the Verilog snippet above to the backend simulator, chisel3 provides the following tools basedf on the Chisel/FIRRTL [annotation system](../explanations/annotations) via methods that are already available on `ExtModule`.  To include a Java resource, use `addResource`:
+In order to deliver the Verilog snippet above to the backend simulator, chisel3 provides the following tools based on the Chisel/FIRRTL [annotation system](../explanations/annotations) via methods that are already available on `ExtModule`.  To include a Java resource, use `addResource`:
 
 ```scala mdoc:silent:reset
 import chisel3._
